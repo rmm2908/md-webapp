@@ -6,7 +6,7 @@
   "scripts": {
     "watch-ts": "tsc --watch",
     "watch-sass": "sass src/sass:public/css --watch",
-    "watch-http": "vite serve -d --port 8123 --cors public",
+    "watch-http": "vite serve -d --port 3000 --cors public",
     "watch": "concurrently --kill-others -c black.bgGreen.bold,black.bgBlue.bold,black.bgMagenta.bold \"npm:watch-*\""
   },
   "keywords": [],
